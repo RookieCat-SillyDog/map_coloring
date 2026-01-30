@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Package
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Output artifacts (existing files remain, ignore future ones)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Run outputs - 匹配实际的 run_id 格式 YYYYMMDD-HHMMSS
+analysis/stats/**/20*/
+analysis/plots/**/20*/
+
+# 也保留原有的 run_ 前缀模式（向后兼容）
+analysis/stats/*/run_*/
+analysis/plots/*/run_*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+pgm-toolkit_backup/
+
+pgm-toolkit_backup/
+
+pgm-toolkit_backup/
